@@ -1,0 +1,67 @@
+body {
+    font-family: cursive, fantasy, Arial;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+table {
+    width: 210px;
+    height: 210px;
+    border-collapse: collapse;
+    transform: translate(-50%);
+}
+
+.div-tabela {
+    align-content: center;
+    margin-left: 50%;
+}
+
+.cedula {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.red {
+    color: red;
+}
+
+.botao {
+    transform: translate(-50%);
+}
+
+.disabled-click {
+    pointer-events: none;
+}
+
+h2 {
+    transform: translate(-50%);
+    text-align: center;
+}
